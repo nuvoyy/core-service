@@ -1,6 +1,5 @@
-package com.example.core_service.repository;
+package com.example.core_service;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import com.example.core_service.entity.Student;
 
 public interface StudentRepository extends JpaRepository<Student, Long> {}
